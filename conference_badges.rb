@@ -15,5 +15,5 @@ def assign_rooms(names)
 end
 
 def printer(list)
-  pp list
+  list.each { |e| badge_maker(e) }
 end
