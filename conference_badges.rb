@@ -9,5 +9,7 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(names)
-
+  badge_messages=[]
+  names.each_with_index{|name, room_plus| badge_messages.push("Hello, #{name}! You'll be assigned to room #{room_plus + 1}!")}
+  badge_messages
 end
