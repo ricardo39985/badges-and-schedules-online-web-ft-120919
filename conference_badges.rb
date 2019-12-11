@@ -13,3 +13,7 @@ def assign_rooms(names)
   names.each_with_index{|name, room_plus| badge_messages.push("Hello, #{name}! You'll be assigned to room #{room_plus + 1}!")}
   badge_messages
 end
+
+def printer
+  
+end
