@@ -14,6 +14,7 @@ def assign_rooms(names)
   badge_messages
 end
 
-def printer
+def printer(list)
+
 
 end
